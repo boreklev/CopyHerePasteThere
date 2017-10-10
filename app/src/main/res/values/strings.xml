@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Copy Here Paste There</string>
+    <string name="server">server</string>
+    <string name="port">port</string>
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="image_sent">Image captured</string>
+    <string name="menu_server">Server</string>
+
+</resources>

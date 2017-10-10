@@ -1,0 +1,62 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="se.boreklev.copyherepastethere.qr.QRFragment">
+<!--
+
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|top"
+        android:gravity="left"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/qrs_btn_flash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/ic_action_flash_auto" />
+
+        <ImageView
+            android:id="@+id/qrs_btn_overlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_overlay_square" />
+    </LinearLayout>
+-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:gravity="bottom"
+        android:layout_marginBottom="25dp">
+
+        <ImageView
+            android:id="@+id/qrs_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_action_text" />
+
+        <ImageView
+            android:id="@+id/qrs_qr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_action_qr_selected" />
+
+        <ImageView
+            android:id="@+id/qrs_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_action_img" />
+    </LinearLayout>
+
+
+</FrameLayout>
